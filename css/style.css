@@ -27,7 +27,20 @@ section .heading
     padding-bottom: 40px;
 }
 
+section .heading h2
+{
+    text-transform: uppercase;
+}
+
 /* ABOUT */
+
+.divider
+{
+    width: 200px;
+    height: 2px;
+    background-color: #9FA8DA;
+    margin: 0 auto 20px;
+}
 
 #about
 {
@@ -52,8 +65,8 @@ section .heading
     font-weight: bold;
     font-size: 1em;
     text-decoration: none;
-    color: #9FA8DA;
-    border: 1px solid white;
+    color: #333333;
+    border: 1px solid #333333;
     background-color: #e8c34d;
     padding: 18px 50px;
     display: inline-block;
@@ -69,7 +82,38 @@ section .heading
     border: 1px solid #e8c34d;
 }
 
-#about .heading h3
-{
 
+
+/* SKILLS */
+
+#skills
+{
+    background-color: #e8c34d;
+}
+
+#skills .heading h2
+{
+    color: #333333;
+}
+
+#skills .progress
+{
+    height: 45px;
+    margin: 30px 20px;
+}
+
+#skills .progress:last-child
+{
+    margin-bottom: 0px;
+}
+
+#skills .progress-bar
+{
+    background-color: #9FA8DA;
+}
+
+#skills .progress-bar h6
+{
+    text-shadow: 1px 1px 1px #333333;
+    margin-bottom: 3px;
 }
