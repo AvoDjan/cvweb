@@ -37,6 +37,13 @@ ul
     list-style: none;
 }
 
+.dividerlow
+{
+    width: 100px;
+    height: 2px;
+    background-color: #8b6c42;
+    margin: 0 auto 20px;
+}
 
 /* ABOUT */
 
@@ -258,4 +265,58 @@ ul
 .timeline-heading h4
 {
     color: #b67823;
+}
+
+/* EDUCATION */
+
+#education
+{
+    background-color: #e8c34d;
+}
+
+#education .heading h2
+{
+    color: #333333;
+    margin: 15px 0px;
+}
+
+.education-block
+{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #D1D9FF;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.education-block h5
+{
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.education-block span
+{
+    font-size: 35px;
+}
+
+.education-block h3
+{
+    color: #b67823;
+    margin: 15px 0px;
+}
+
+.education-block h4
+{
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.education-block p
+{
+    font-size: 20px;
 }
