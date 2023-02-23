@@ -320,3 +320,61 @@ ul
 {
     font-size: 20px;
 }
+
+/* PORTFOLIO */
+
+#portfolio
+{
+    background-color: #9FA8DA;
+}
+
+#portfolio .heading h2
+{
+    color: #333333;
+    margin: 15px 0px;
+}
+
+#portfolio img
+{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+#portfolio img:hover
+{
+    filter: none;
+    -webkit-filter: none;
+}
+
+#portfolio .col-md-6
+{
+    margin-bottom: 20px;
+}
+
+/* FOOTER */
+
+footer
+{
+    background-color: #e8c34d;
+    padding: 20px 0 40px;
+}
+
+footer span
+{
+    color: #333333;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+footer span:hover
+{
+    color: #333333;
+    font-size: 27px;
+}
+
+footer h5
+{
+    color: #333333;
+}
