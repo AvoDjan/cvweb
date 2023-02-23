@@ -12,7 +12,25 @@
         <link rel="stylesheet" href="css/style.css">
         <script src="js/script.js"></script>
     </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#myNavebar">
+    <nav id="myNavebar" class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#about">Profil</a>
+                    <a class="nav-link" href="#skills">Compétences</a>
+                    <a class="nav-link" href="#experience">Expérience</a>
+                    <a class="nav-link" href="#education">Diplômes</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </nav>
     <section id="about" class="container-fluid">
         <div class="col-8 col-lg-4 profile-picture">
             <img src="images/moi.jpg" alt="Grégory" class="rounded-circle">
@@ -173,7 +191,7 @@
         <div class="container">
             <div class="divider"></div>
             <div class="heading">
-                <h2>Diplôme</h2>
+                <h2>Diplômes</h2>
             </div>
             <div class="row">
                 <div class="col-md-4">
